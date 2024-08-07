@@ -64,3 +64,30 @@ This project serves as a predictor for restaurant star ratings in Binghamton, Ne
 
 - The scatterplot demonstrates the model's tendency to overproject low-star restaurants and underproject high-star restaurants.
 - The model consistently predicts values in the 3-4 range, indicating a safe approach but still offering a reasonable estimate.
+
+# Email Sender Prediction Project
+
+### Overview
+
+This project aims to predict the sender of an email using email content. This is particularly important in scenarios where an emailer flagged for malicious activities attempts to use a different email address to continue their activities. By identifying the writing style and patterns of individuals, the model can predict if the same person is behind different email addresses.
+
+### Approach
+
+- The solution involves using the vectors acquired from word2vec to create a random forest model that predicts the 'from' values. The vectors were generated from the message column of the emails. The objective is for the model to recognize each individual's writing style and accurately determine the sender of a message based on its content.
+
+### Results
+
+- The model achieved an accuracy of 87%, demonstrating its effectiveness in predicting the sender based on email content.
+
+### Methodology
+
+1. **Data Preparation:**
+   - Emails are preprocessed, and the message content is used to create word2vec vectors.
+   - These vectors represent the unique writing style of each sender.
+
+2. **Model Training:**
+   - A random forest classifier is trained using the word2vec vectors to predict the 'from' values.
+   - The model learns to identify patterns and styles unique to each sender.
+
+3. **Evaluation:**
+   - The model's performance is evaluated, achieving an accuracy of 87%.
