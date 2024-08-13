@@ -23,6 +23,11 @@ This project involves creating an Exponential Smoothing State Space Model (ETS) 
    - Despite the inherent challenges in predicting stock prices accurately, the model demonstrated an ability to identify the general direction of stock price movements
    - MSE was substantially higher for certain stocks which could be attributed to randomness or a higher volatility in the stock
 
+## Copy
+
+- **Dataset:** [https://github.com/adacersos/Statistical-Modelling/blob/main/london_weather.csv](https://github.com/adacersos/Statistical-Modelling/tree/main/stock%20csv%20folder)
+- **Code:** https://github.com/adacersos/Statistical-Modelling/blob/main/Stock%20Price%20Predictor.ipynb
+
 # Case 2: Restaurant Star Ratings Predictor
 
 - **Timeline:** January 2024 - February 2024
@@ -64,7 +69,10 @@ This project serves as a predictor for restaurant star ratings in Binghamton, Ne
 
 - The scatterplot demonstrates the model's tendency to overproject low-star restaurants and underproject high-star restaurants.
 - The model consistently predicts values in the 3-4 range, indicating a safe approach but still offering a reasonable estimate.
-
+- 
+### Copy
+**Dataset:** Too Large so look at this similar dataset as an example: https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset
+**Code:** https://github.com/adacersos/Basic-Data-Science-Projects/blob/main/restaurant%20star%20rating%20predictor.ipynb
 # Email Sender Prediction Project
 
 ### Overview
@@ -91,3 +99,7 @@ This project aims to predict the sender of an email using email content. This is
 
 3. **Evaluation:**
    - The model's performance is evaluated, achieving an accuracy of 87%.
+
+### Copy
+- **Dataset:** https://www.kaggle.com/datasets/wcukierski/enron-email-dataset
+- **Code:** https://github.com/adacersos/Basic-Data-Science-Projects/blob/main/email%20dataset.ipynb
